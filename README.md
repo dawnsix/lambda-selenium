@@ -1,4 +1,4 @@
-# javascript based selenium PoC w/ LambdaTest
+# javascript based selenium poc w/ lambdatest
 selenium + js base frame for cloud browser testing within ci pipeline
 
 pro tip: dont use lambdatest - you get what you pay for and thats all I'm saiyan
