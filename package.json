@@ -1,0 +1,27 @@
+{
+  "name": "js-selenium",
+  "version": "1.0.0",
+  "description": "selenium + js template",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000 tests/*",
+    "lambda": "npm run single",
+    "single": "cross-env CONFIG_FILE=single ./node_modules/.bin/mocha tests/*.js conf/single.conf.js --timeout=100000",
+    "parallel": "cross-env CONFIG_FILE=parallel ./node_modules/.bin/mocha tests/*.js conf/parallel.conf.js --timeout=100000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^110.0.0",
+    "dotenv": "^16.0.3",
+    "selenium-webdriver": "^4.8.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "yarn": ">=1.0.0"
+  }
+}
