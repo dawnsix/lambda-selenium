@@ -25,7 +25,9 @@ return new Builder()
 
 var driver, landingPage, loginPage;
 
-caps.forEach(async function(cap) {
+caps.forEach(function(cap) {
+
+    console.log("running " + cap.browserName)
 
     describe("basic", async function() {
 

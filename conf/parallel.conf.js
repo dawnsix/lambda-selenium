@@ -8,10 +8,10 @@ var config = {
   },
   multiCapabilities: [
     {
-      "browserName": "Firefox",
-      "platform": "Windows 10",
-      "browserVersion": "latest",
-      "console": "true",
+      browserName: "Firefox",
+      platform: "Windows 10",
+      browserVersion: "latest",
+      console: "true",
       "LT:Options": {
         "video": true,
         "visual": true,
@@ -24,10 +24,10 @@ var config = {
       }
     },
     {
-      "browserName": "chrome",
-      "platform": "Windows 11",
-      "browserVersion": "102",
-      "console": "true",
+      browserName: "chrome",
+      platform: "Windows 11",
+      browserVersion: "102",
+      console: "true",
       "LT:Options": {
         "video": true,
         "visual": true,
